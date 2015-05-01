@@ -1,14 +1,4 @@
 (function() {
-    // console.log('mousewheel' in document);
-    // console.log('onwheel' in document);
-    // console.log('onmousewheel' in document);
-
-    // console.log('wheel' in document);
-    // console.log('DOMMouseScroll' in document);
-    // console.log('MozMousePixelScroll' in document);
-    
-    // console.log('mousewheel' in document);
-
     var wheelIndicator = {
         last5values: [ 0, 0, 0, 0, 0 ],
         memoryAcceleration: [ 0, 0 , 0 ],
